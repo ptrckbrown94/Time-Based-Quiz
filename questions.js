@@ -3,26 +3,31 @@ let questionIndex = 0;
 
 var questions = [
     {
-        title: "Commonly used data types DO NOT include:",
-        choices: ["strings", "booleans", "alerts", "numbers"],
-        answer: "alerts"
+        title: "Which is the best Star Wars video Game:",
+        choices: ["Star Wars: Shadows of the Empire", "Super Empire Strikes Back", "Lego Star Wars the complete Saga", "Star Wars: Knights of the Old Replic"],
+        answer: "Star Wars: Shadows of the Empire"
     },
     {
-        title: "The condition in an if / else statement is enclosed within ____.",
-        choices: ["quotes", "curly brackets", "parentheses", "square brackets"],
-        answer: "parentheses"
+        title: "Which character had the saddiest death:",
+        choices: ["Han Solo", "Random Ewok", "Mace Windo", "Jabba the Hutt"],
+        answer: "Han Solo"
     },
     {
-        title: "The condition in an if / else statement is enclosed within ____.",
-        choices: ["quotes", "curly brackets", "parentheses", "square brackets"],
-        answer: "parentheses"
+        title: "Which is the highest grossing Star Wars movie:",
+        choices: ["Return of the Jedi", "Rogue One", "The Last Jedi", " A New Hope"],
+        answer: "A New Hope"
     },
     {
-        title: "The condition in an if / else statement is enclosed within ____.",
-        choices: ["quotes", "curly brackets", "parentheses", "square brackets"],
-        answer: "parentheses"
-    }];
+        title: "Who is the most power full Jedi:",
+        choices: ["Kit Fisto", "Yoda", "Luke Skywalker", "Qui-Gon Jinn"],
+        answer: "Luke Skywalker"
+    }
 
+    {
+        title: "Worst Character in the Star Wars movie Universe:",
+        choices: ["Young Anakin Skywalker", "Jar Jar Binks", "Watto", "Salacious B. Crumb"],
+        answer: "Jar Jar Binks"
+    }];
 
 
 var myFunctionWasCalled = false;
