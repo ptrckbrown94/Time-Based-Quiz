@@ -34,18 +34,7 @@ var questions = [
 
 var myFunctionWasCalled = false;
 
-function doFoo()
-{
-    if (!myFunctionWasCalled) {
-        alert("doFoo called for the very first time!");
-        myFunctionWasCalled = true;
 
-        location.assign("questionPage.html");
-    }
-    else {
-        alert("doFoo called again");
-    }
-}
 
 function StartQuiz() {
     console.log("test");
