@@ -1,7 +1,8 @@
 //global varibles
 let questionIndex = 0;
 const mainContent = document.getElementById("mainContent")
-
+//not sure if I need another const?
+const runQuiz = document.getElementById("runQuiz")
 
 
 let questions = [
@@ -36,18 +37,21 @@ let questions = [
 
 function StartQuiz() {
 
-    questionIndex = 0;
 
     //https://dzone.com/articles/removing-element-plain, used to delete my text
     const elem = document.getElementById("mainContent");
     elem.parentNode.removeChild(elem);
+    console.log("test")
 
-    function runQuiz (){
-
-    }
+    questionIndex = 0;
 
 }
+// trying to call the questions
+function addElement(){
+    const runQuiz = document.createElement(runQuiz);
 
+  console.log("test")
+}
 
 
 
