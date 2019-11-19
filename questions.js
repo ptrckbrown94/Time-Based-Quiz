@@ -33,24 +33,33 @@ let questions = [
         answer: "Jar Jar Binks"
     }];
 
+const startButton = document.getElementById("start-button")
+startButton.addEventListener("click", startQuiz)
 
-
-function StartQuiz() {
-
+function startQuiz() {
 
     //https://dzone.com/articles/removing-element-plain, used to delete my text
     const elem = document.getElementById("mainContent");
     elem.parentNode.removeChild(elem);
-    console.log("test")
+   
 
     questionIndex = 0;
 
+    generateQuestion()
 }
+
+function generateQuestion(){
+    //use to generate questions
+
+
+}
+
+
 // trying to call the questions
-function addElement(){
+function addElement() {
     const runQuiz = document.createElement(runQuiz);
 
-  console.log("test")
+    console.log("test")
 }
 
 
