@@ -1,7 +1,7 @@
 //global varibles
 let questionIndex = 0;
 const mainContent = document.getElementById("mainContent")
-function qustion(){}
+
 
 
 let questions = [
@@ -35,18 +35,16 @@ let questions = [
 
 
 function StartQuiz() {
-    console.log("test");
-    
+
     questionIndex = 0;
 
-    //LoadQuestion(questionIndex)
+    //https://dzone.com/articles/removing-element-plain, used to delete my text
+    const elem = document.getElementById("mainContent");
+    elem.parentNode.removeChild(elem);
 
-    function clearBox(mainContent)
-    {
-        document.getElementById(elementID).innerHTML = "";
+    function runQuiz (){
+
     }
-    
-
 
 }
 
