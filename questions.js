@@ -5,6 +5,7 @@ const mainContent = document.getElementById("mainContent")
 const runQuiz = document.getElementById("runQuiz")
 
 
+
 let questions = [
     {
         title: "Which is the best Star Wars video Game:",
@@ -33,6 +34,9 @@ let questions = [
         answer: "Jar Jar Binks"
     }];
 
+
+
+
 const startButton = document.getElementById("start-button")
 startButton.addEventListener("click", startQuiz)
 
@@ -41,15 +45,26 @@ function startQuiz() {
     //https://dzone.com/articles/removing-element-plain, used to delete my text
     const elem = document.getElementById("mainContent");
     elem.parentNode.removeChild(elem);
-   
+
 
     questionIndex = 0;
 
     generateQuestion()
 }
 
-function generateQuestion(){
+function generateQuestion() {
     //use to generate questions
+    const title = document.createElement("p");
+    console.log(questions[0])
+    title.innerText = "Which is the best Star Wars video Game:"
+    document.body.append(title);
+    const choices = document.createElement("p");
+    questions.forEach(function () {
+
+    });
+    const answer = document.createElement("p");
+    // and give it some content 
+
 
 
 }
